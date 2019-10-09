@@ -21,3 +21,11 @@ tar -zxvf kafka_2.12-2.3.0.tgz -C ./kafka/
 
 cd kafka
 cd kafka*
+
+cd ../..
+
+wget http://apache-mirror.8birdsvideo.com/nifi/1.9.2/nifi-1.9.2-bin.tar.gz 
+tar -zxvf nifi*
+
+cd nifi*
+./bin/nifi.sh start
