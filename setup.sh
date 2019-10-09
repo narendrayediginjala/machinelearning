@@ -25,7 +25,9 @@ cd kafka*
 cd ../..
 
 wget http://apache-mirror.8birdsvideo.com/nifi/1.9.2/nifi-1.9.2-bin.tar.gz 
-tar -zxvf nifi*
+mkdir nifi
+tar -zxvf nifi* ./nifi
 
+cd nifi
 cd nifi*
 ./bin/nifi.sh start
